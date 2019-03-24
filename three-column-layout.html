@@ -1,0 +1,45 @@
+<html>
+	<title>Three column layout</title>
+	<head> 
+		<style  type="text/css">
+			#header{
+				background : #4e6766;
+				height : 100px;
+			}
+
+			#footer {
+				background : #2d2d34;
+				height : 100px;
+				clear : both;
+			} 
+
+			#col1 {
+				background : #5ab1bb;
+			}
+
+			#col2 {
+				background : #a5c882;
+			}
+
+			#col3 {
+				background : #f7dd72;
+			}	
+			
+			.column {
+				width : 33.3%;
+				height : 400px;
+				float: left;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<div id="header"></div>
+		<div id="mainContent">
+			<div id="col1" class="column"></div>
+			<div id="col2" class="column"></div>
+			<div id="col3" class="column"></div>
+		</div>
+		<div id="footer"></div>
+	</body>
+</html>
